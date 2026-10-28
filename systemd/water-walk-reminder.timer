@@ -1,0 +1,9 @@
+[Unit]
+Description=Check for water/walk reminders every 15 minutes
+
+[Timer]
+OnCalendar=*:00/15
+Persistent=false
+
+[Install]
+WantedBy=timers.target

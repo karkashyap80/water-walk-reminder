@@ -1,0 +1,6 @@
+[Unit]
+Description=Water and walk break reminder
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/.local/share/water-walk-reminder/reminder.py
